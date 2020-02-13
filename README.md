@@ -1,6 +1,9 @@
 # terraform-provider-shebang
 
 The whole shebang for testing the tfe provider. This is based off of my [tfc-init repo](https://github.com/acespacecase/tfc-init) which was heavily inspired by many other similar repos internally shared at HashiCorp.
+## Setup
+
+In order to manage teams with the provider, you will need to activate the developer tier. Go to site admin, orgs, find your provider org, and upgrade it to the developer tier.
 
 ## How to use
 
@@ -19,10 +22,10 @@ Run `terraform init`, `terraform plan`, and `terraform apply`.
  - [x] tfe_policy_set_parameter
  - [x] tfe_sentinel_policy
  - [x] tfe_ssh_key
- - [ ] tfe_team
- - [ ] tfe_team_access
- - [ ] tfe_team_member
- - [ ] tfe_team_members
- - [ ] tfe_team_token
+ - [x] tfe_team
+ - [x] tfe_team_access
+ - [x] tfe_team_member
+ - [x] tfe_team_members
+ - [x] tfe_team_token
  - [x] tfe_variable
  - [x] tfe_workspace
