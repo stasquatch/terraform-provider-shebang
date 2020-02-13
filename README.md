@@ -15,10 +15,10 @@ Run `terraform init`, `terraform plan`, and `terraform apply`.
 [x] tfe_oauth_client
 [x] tfe_organization
 [ ] tfe_organization_token
-[ ] tfe_policy_set
-[ ] tfe_policy_set_parameter
-[ ] tfe_sentinel_policy
-[ ] tfe_ssh_key
+[x] tfe_policy_set
+[x] tfe_policy_set_parameter
+[x] tfe_sentinel_policy
+[x] tfe_ssh_key
 [ ] tfe_team
 [ ] tfe_team_access
 [ ] tfe_team_member
