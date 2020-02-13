@@ -13,6 +13,8 @@ resource "tfe_workspace" "higgins_the_cat" {
   vcs_repo {
     identifier = "acespacecase/terraform-multi"
     oauth_token_id = tfe_oauth_client.github.oauth_token_id
+    branch = "noodles"
   }
   auto_apply = true
+  working_directory = "/application"
 }
