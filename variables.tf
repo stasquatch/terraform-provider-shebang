@@ -1,5 +1,7 @@
 variable "TF_VAR_GITHUB_TOKEN" {}
 variable "email" {}
+variable "hostname" {}
+variable "slack_webhook" {}
 
 resource "tfe_variable" "pet_name_length1" {
     key = "pet_name_length1"
