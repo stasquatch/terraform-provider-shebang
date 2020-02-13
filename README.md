@@ -18,7 +18,7 @@ Run `terraform init`, `terraform plan`, and `terraform apply`.
 [x] tfe_policy_set
 [x] tfe_policy_set_parameter
 [x] tfe_sentinel_policy
-[ ] tfe_ssh_key
+[x] tfe_ssh_key
 [ ] tfe_team
 [ ] tfe_team_access
 [ ] tfe_team_member
