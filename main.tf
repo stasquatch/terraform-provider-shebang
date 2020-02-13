@@ -1,5 +1,5 @@
 provider "tfe" {
-    hostname = "app.terraform.io"
+    hostname = var.hostname
 }
 
 resource "tfe_organization" "stacy_provider_vartest" {

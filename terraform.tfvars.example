@@ -1,2 +1,4 @@
 TF_VAR_GITHUB_TOKEN = ""
 email = ""
+slack_webhook = ""
+hostname = ""
