@@ -3,7 +3,7 @@
 The whole shebang for testing the tfe provider. This is based off of my [tfc-init repo](https://github.com/acespacecase/tfc-init) which was heavily inspired by many other similar repos internally shared at HashiCorp.
 ## Setup
 
-In order to manage teams with the provider, you will need to activate the developer tier. Go to site admin, orgs, find your provider org, and upgrade it to the developer tier.
+In order to manage teams with the provider, you'll need to upgrade from the free tier.
 
 ## How to use
 
